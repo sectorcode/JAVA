@@ -3,8 +3,8 @@ package com.pe.sectorcode.ejercicio3;
 import java.util.Scanner;
 
 /***
- * Crea en una nueva clase llamada �ComparaNumeroRepe1� la misma l�gica del
- * ejercicio anterior,pero ahora solicita repetidamente al usuario los n�meros
+ * Crea en una nueva clase llamada "ComparaNumeroRepe1" la misma lógica del
+ * ejercicio anterior,pero ahora solicita repetidamente al usuario los números
  * hasta que los ingrese menores a 10.
  * 
  * @author Josue
@@ -23,12 +23,12 @@ public class ComparaNumeroRepe1 {
 		// que 10 para salir del bucle el numero debe ser menor que 10
 
 		while (numero1 > 10) {
-			System.out.println("Ingresar un n�mero menor a 10 -> 1 :");
+			System.out.println("Ingresar un número menor a 10 -> 1 :");
 			numero1 = teclado.nextInt(); // ingresar un valor entero por teclado
 		}
 
 		while (numero2 > 10) {
-			System.out.println("Ingresar un n�mero menor a 10 -> 2 :");
+			System.out.println("Ingresar un número menor a 10 -> 2 :");
 			numero2 = teclado.nextInt(); // ingresar un valor entero por teclado
 		}
 
@@ -42,7 +42,7 @@ public class ComparaNumeroRepe1 {
 			System.out.println("Numeros iguales");
 
 		
-		System.out.print("El valor del primer n�mero es :");
+		System.out.print("El valor del primer número es :");
 		switch (numero1) {
 		case 0:
 			System.out.println("cero");
