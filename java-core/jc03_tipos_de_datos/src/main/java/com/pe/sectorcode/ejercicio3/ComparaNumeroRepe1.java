@@ -3,7 +3,7 @@ package com.pe.sectorcode.ejercicio3;
 import java.util.Scanner;
 
 /***
- * Crea en una nueva clase llamada �ComparaNumerosRepe� la misma l�gica del
+ * Crea en una nueva clase llamada �ComparaNumeroRepe1� la misma l�gica del
  * ejercicio anterior,pero ahora solicita repetidamente al usuario los n�meros
  * hasta que los ingrese menores a 10.
  * 
