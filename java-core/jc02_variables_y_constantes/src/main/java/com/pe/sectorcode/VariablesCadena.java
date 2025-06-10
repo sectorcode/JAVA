@@ -19,7 +19,7 @@ public class VariablesCadena
     System.out.printf(" Valor de la variable caracter = %c%n", caracter);
 
     // se cambia el valor de la variable cadena;
-    cadena = "Esto es una nuveva cadena de texto mas un caracter";
+    cadena = "Esto es una nueva cadena de texto mas un caracter";
     caracter = 'B';
     System.out.printf(" Nuevo valor de la variable cadena =\'%s\'+\'%c\'%n", cadena, caracter);
   }

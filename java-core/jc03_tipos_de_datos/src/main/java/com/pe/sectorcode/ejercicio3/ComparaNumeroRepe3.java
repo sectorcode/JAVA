@@ -25,7 +25,12 @@ public class ComparaNumeroRepe3 {
 			else
 				break; /// si es cero sale del bucle.
 		}
-
+		
+		if (contador == 0) {
+			System.out.println("No se ingresaron valores");
+			scanner.close();
+			return;
+		}
 		promedio = acumulador / contador;
 
 		System.out.println("Total valores ingresados  :" + contador);
